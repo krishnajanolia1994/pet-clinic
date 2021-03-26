@@ -1,4 +1,4 @@
-package com.krishna.petclinic.model;
+package pet.clinic.data.model;
 
 public class Owner extends Person{
 
