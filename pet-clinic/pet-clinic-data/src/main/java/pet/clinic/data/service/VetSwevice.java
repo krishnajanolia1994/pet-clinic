@@ -4,7 +4,7 @@ import java.util.Set;
 
 import pet.clinic.data.model.Vet;
 
-public interface VetSwevice {
+public interface VetSwevice extends CrudeService<Vet, Long>{
 	
 	
 	Vet findById(String Id);
